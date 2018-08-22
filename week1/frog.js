@@ -5,12 +5,12 @@ function setup() {
 }
 
 function draw() {
-  //body
-  ellipse (400,200,100,100);
   //head
-  ellipse (400,120,60,60);
+  ellipse (150,100,150,70);
+  //mouth
+  ellipse (150,110,70,15);
   //left eye
-  ellipse (385,120,10,10);
+  ellipse (110,65,20,20);
   //right eye
-  ellipse (405,120,10,10);
+  ellipse (185,65,20,20);
 }
